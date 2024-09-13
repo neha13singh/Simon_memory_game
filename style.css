@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+
+.btn{
+    height:150px;
+    width:150px;
+    border-radius: 25%;
+    border: 5px,solid  rgb(1, 17, 3);
+    margin: 1rem;
+}
+
+.btn-container{
+    display:flex;
+    justify-content: center;
+    /* padding: 30px; */
+    /* margin: 20px; */
+
+}
+
+.red{
+    background-color: rgb(244, 100, 143);
+}
+.yellow{
+    background-color: rgb(245, 250, 94);
+}
+.purple{
+    background-color: rgb(140, 65, 140);
+}
+.green{
+    background-color: rgb(79, 216, 139);
+}
+.flash{
+    background-color:rgb(0, 0, 0);
+}
+.userflash{
+    background-color: rgb(11, 223, 11);
+}
+.body{
+    background-color: red;
+}
+.start{
+background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 32px; /* Increase size by adding padding */
+  font-size: 20px; /* Increase the text size */
+  border: none; /* Remove borders */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer on hover */
+  transition: background-color 0.3s ease; 
+}
